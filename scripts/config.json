@@ -1,0 +1,13 @@
+{
+    "NasPath": "\\\\nas-schulze\\EigeneDateien",
+    "RcloneExe": "C:\\tools\\rclone\\rclone.exe",
+    "RcloneConfig": "C:\\tools\\rclone\\rclone.conf",
+    "LogDir": "C:\\tools\\rclone\\logs",
+    "MaxTries": 10,
+    "Jobs": [
+        { "Source": "\\\\nas-schulze\\EigeneDateien\\EigeneDateienSchulze", "Destination": "gdrive:EigeneDateienSchulze", "Exclude": null },
+        { "Source": "\\\\nas-schulze\\EigeneDateien\\EigeneDateienSchwarz", "Destination": "gdrive:EigeneDateienSchwarz", "Exclude": null },
+        { "Source": "\\\\nas-schulze\\EigeneDateien\\EigeneDateienTonndorf", "Destination": "gdrive:EigeneDateienTonndorf", "Exclude": null },
+        { "Source": "\\\\nas-schulze\\EastFakt", "Destination": "gdrive:EastFakt", "Exclude": "Schwarz/AP-2/Data/C/Users/**" }
+    ]
+}
