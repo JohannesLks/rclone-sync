@@ -83,14 +83,14 @@ Edit `scripts/config.json` to match your setup:
 **Example `config.json`**:
 ```json
 {
-    "NasPath": "\\\\nas-schulze\\EigeneDateien",
+    "NasPath": "\\\\your-nas-server\\your-share",
     "RcloneExe": "rclone.exe",
     "RcloneConfig": "rclone.conf",
     "LogDir": "logs",
     "MaxTries": 10,
     "Jobs": [
-        { "Source": "\\\\nas-schulze\\EigeneDateien\\path1", "Destination": "gdrive:path1", "Exclude": null },
-        { "Source": "\\\\nas-schulze\\EigeneDateien\\path2", "Destination": "gdrive:path2", "Exclude": "exclude/path/**" }
+        { "Source": "\\\\your-nas-server\\your-share\\path1", "Destination": "remote:path1", "Exclude": null },
+        { "Source": "\\\\your-nas-server\\your-share\\path2", "Destination": "remote:path2", "Exclude": "exclude/path/**" }
     ]
 }
 ```
