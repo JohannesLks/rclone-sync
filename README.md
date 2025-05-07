@@ -253,7 +253,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact 📬
 
-For support, open an issue on [GitHub](https://github.com/your-username/rclone-sync/issues). Include verbose logs:
+For support, open an issue on [GitHub](https://github.com/JohannesLks/rclone-sync/issues). Include verbose logs:
 ```powershell
 .\scripts\sync_all.ps1 -Verbose > debug.log
 ```
